@@ -1,0 +1,11 @@
+1. Java là ngôn ngữ lập trình Pass by Value hay Pass by Reference?  
+Java là một ngôn ngữ lập trình sử dụng cơ chế Pass by Value.  
+
+2. Sau khi gọi phương thức swap(jungleDVD, cinderellaDVD), tại sao tiêu đề của hai đối tượng này vẫn không thay đổi?  
+Vì phương thức swap() chỉ trao đổi giá trị của các tham chiếu (references) chứ không thay đổi bản thân các tham chiếu. Do đó, jungleDVD và cinderellaDVD vẫn trỏ đến các đối tượng ban đầu trong bộ nhớ sau khi gọi phương thức swap().  
+
+3. Sau khi gọi phương thức changeTitle(jungleDVD, cinderellaDVD.getTitle()), tại sao tiêu đề của đối tượng JungleDVD lại thay đổi?  
+Vì phương thức changeTitle() đang sửa đổi trực tiếp thuộc tính title của đối tượng jungleDVD bằng cách sử dụng phương thức setter.  
+
+4. Viết phương thức toString() cho lớp DigitalVideoDisc. Kiểu trả về của phương thức này là gì?  
+Kiểu trả về của phương thức này là String.  
